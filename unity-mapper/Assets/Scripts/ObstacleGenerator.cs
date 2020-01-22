@@ -16,8 +16,8 @@ public class ObstacleGenerator : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        setObstacle();
-
+//        setObstacle();
+        spawnPlayer();
         //Update Navmesh
         surface.BuildNavMesh();
     }
